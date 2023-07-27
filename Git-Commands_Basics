@@ -18,3 +18,12 @@ git-status :
           command:
                   git status
 
+git-commit -m"" :
+                It is used to record the changes in the repository. It is the next command after the git add. 
+                Every commit contains the index data and the commit message. Every commit forms a parent-child relationship. 
+                When we add a file in Git, it will take place in the staging area. A commit command is used to fetch updates from the staging area to the repository.
+
+                Since we have finished our work, we are ready move from stage to commit for our repo.
+                Sometimes, when you make small changes, using the staging environment seems like a waste of time. 
+                It is possible to commit changes directly, skipping the staging environment. 
+                The -a option will automatically stage every changed, already tracked file.
