@@ -32,6 +32,12 @@ git log :
         to view all changes in repo it will show commit revsion id , author name, Data
         git log --oneline for one line to show the Changes
         two types of reset is there , they are hard and soft:
-			git --hard commit revsionid  -> deletes all the file and data from the repo permanently and change the head to the specfic commit id 
-			git --soft commit revsion id -> change the head to specfic commit id and doesn't delete the file and data instead delete the file and data from local repo. And soft 				is default value so it can be used like git reset commit revsion id
+		git --hard commit revsionid  -> deletes all the file and data from the repo permanently and change the head to the specfic commit id 
+		git --soft commit revsion id -> change the head to specfic commit id and doesn't delete the file and data instead delete the file and data from local repo. 
+			And soft is default value so it can be used like git reset commit revsion id
+
+git-restore :
+	restores data from staging area tp working Directory
+	Its helps to unstage or even discard uncommitted local changes. On the one hand, 
+	the command can be used to undo the effects of git add and unstage changes you have previously added to the Staging Area.
 
