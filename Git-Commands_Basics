@@ -40,4 +40,5 @@ git-restore :
 	restores data from staging area tp working Directory
 	Its helps to unstage or even discard uncommitted local changes. On the one hand, 
 	the command can be used to undo the effects of git add and unstage changes you have previously added to the Staging Area.
-
+		how to use :
+				git restore --staged filename or . (for all files added)
