@@ -42,3 +42,9 @@ git-restore :
 	the command can be used to undo the effects of git add and unstage changes you have previously added to the Staging Area.
 		how to use :
 				git restore --staged filename or . (for all files added)
+
+git revert -> 
+	used to delete a specfic commit git revert commit id while using this command cmd will show a nona editor to give
+	a justification or message. it doesn't show in log but you can view in file data or code or in working directory
+			-- if you think you want to forcely remove it without any commit or
+			justification use git revert commit id --no-commit but you should commit manually. 
