@@ -43,8 +43,14 @@ git-restore :
 		how to use :
 				git restore --staged filename or . (for all files added)
 
-git revert -> 
+git revert : 
 	used to delete a specfic commit git revert commit id while using this command cmd will show a nona editor to give
 	a justification or message. it doesn't show in log but you can view in file data or code or in working directory
 			-- if you think you want to forcely remove it without any commit or
 			justification use git revert commit id --no-commit but you should commit manually. 
+
+git rm :
+	git rm --cached filename - to unstage from staging area or remove from staging area.
+	It doesn't delete the file but makes it untracked file.
+	Eg: 
+		git rm --cached bike(FileName)
